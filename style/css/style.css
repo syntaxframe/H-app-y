@@ -1,4 +1,4 @@
-*,*::before,*::after
+ *,*::before,*::after
 {
     margin: 0;
     padding: 0;
@@ -30,15 +30,15 @@ h3
 {
     font-size: 24px;line-height: 30px;
 }
-h3.blue
+.blue
 {
 color: #0278ED;
 }
-h3.orange
+.orange
 {
 color: #FF5437;
 }
-h3.yellow
+.yellow
 {
 color: #FF9209;
 }
@@ -257,4 +257,86 @@ margin-bottom: 5px;
 .feature_card_icon
 {
     margin-top: -32px;
+}
+.advantages_section
+{
+    background-color: #FF5437;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.advantages
+{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.advantages > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 20px;
+}
+.advantages > div h1
+{
+    font-size: 96px;
+    line-height: 96px;
+   
+}
+.advantages > div p
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.app_facilities_section
+{ 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.app_facilities_section.darker
+{ 
+    background-color: #F2F2F2;
+}
+.app_facilities
+{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+
+    
+}
+.app_facilities.left_content_align
+{
+    padding-left: 80px;
+}
+.app_facilities.right_content_align
+{
+    padding-right: 80px; 
+}
+.app_facilities img
+{
+   width: 440px; height: 420px;
+}
+.app_facilities h4,h2,p
+{
+    color: #222222
+}
+.tariff_plan_section
+{
+
+}
+.tariff_plan
+{
+    
 }
