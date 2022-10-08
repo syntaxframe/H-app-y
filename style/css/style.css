@@ -42,6 +42,18 @@ color: #FF5437;
 {
 color: #FF9209;
 }
+.bg_blue
+{
+background-color: #0278ED;
+}
+.bg_orange
+{
+    background-color: #FF5437;
+}
+.bg_yellow
+{
+    background-color: #FF9209;
+}
 h4
 {
     font-size: 14px;
@@ -334,9 +346,61 @@ margin-bottom: 5px;
 }
 .tariff_plan_section
 {
-
+width: 100%;
 }
 .tariff_plan
 {
-    
+    margin: 0  auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center ;
+   gap: 40px;
+    padding: 150px 0;
+    width: 1200px;
+}
+.payment_plans_container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.payment_plans_container > div
+{
+    display: flex;
+    justify-content: center;
+    width: 372px;
+    height: 338px;
+    padding: 50px 0;
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+.payment_plans_container > div h1
+{
+    font-size: 108px;
+    line-height: 124px;
+    letter-spacing: 8px;
+    margin-bottom: 25px;
+}
+.payment_plans_container > div h2
+{
+    font-size: 18px;
+line-height: 24px;
+
+}
+.payment_plans_container > div h3
+{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.payment_plans_container > div a
+{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 25px; 
 }
